@@ -11,11 +11,11 @@
  
     "Modules" :
     [
-			{
-				"Name": "AdvancedSteamSessions",
-				"Type": "RunTime",
-				"LoadingPhase": "Default"
-			} 
+        {
+            "Name" : "AdvancedSteamSessions",
+            "Type" : "RunTime",
+			"LoadingPhase" : "PreDefault"
+        } 
     ],
 	"Plugins": [
 		{
@@ -28,6 +28,10 @@
 		},
 		{
 			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
 			"Enabled": true
 		},
 		{
